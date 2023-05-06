@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+body{
+    background-color: #FFFFFF;
+    
+}
+.cabecalho-imagem{
+   height: 50px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 20px;
+    
+}
+.cabecalho-menu-item{
+    font-family: 'Roboto', sans-serif;
+    
+    padding: 5px;
+    background-color: #0A99FE30;
+    color:#0A99FE;
+    border-radius: 5px;
+}
+.cabecalho-menu-item:hover{
+    background-color: #0A99FE;
+    opacity: 1;
+    color: white;
+    cursor: pointer;
+    
+}
+.title-categoria{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    color: #1B1B1B;
+}
+.nome-produto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #1B1B1B;
+    padding: 10px;
+}
+.preco-produto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #868383;
+    padding: 10px;
+}
+.pinturas{
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+    overflow-x: auto;
+}
+img{
+    width:207px;
+    height:190px;
+    border-radius: 5px;
+}
+.card{
+    width: 207px;
+    height: 275px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+}
+ul{
+    overflow-x: auto;
+}
+
+.actions{
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+    overflow-x: auto;
+}
+
+  
