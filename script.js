@@ -15,60 +15,59 @@ const productsArray = [
   },
   // Produto 3 (adicione os produtos restantes abaixo)
   {
-    image: "/assets/img/paintings/quadro-controle.jpg",
+    image: "./assets/img/paintings/quadro-controle.jpg",
     name: "Controle Playstation",
     price: "R$ 99,00",
     type: "Paintings",
   },
   {
-    image: "/assets/img/paintings/quadro-mario.jpg",
+    image: "./assets/img/paintings/quadro-mario.jpg",
     name: "Mario",
     price: "R$ 275,00",
     type: "Paintings",
   },
   {
-    image: "/assets/img/paintings/quadro-pacman.jpg",
+    image: "./assets/img/paintings/quadro-pacman.jpg",
     name: "PacMan",
     price: "R$ 160,00",
     type: "Paintings",
   },
   {
-    image: "/assets/img/paintings/quadro-relogio.jpg",
+    image: "./assets/img/paintings/quadro-relogio.jpg",
     name: "Smart Watch",
     price: "R$ 120,00",
     type: "Paintings",
   },
   {
-    image:"/assets/img/actions/godzilla-action-figure.jpg",
+    image:"./assets/img/actions/godzilla-action-figure.jpg",
     name: "Godzilla",
     price: "R$ 700,00",
     type: "Action Figures",
   },
   {
-    image:"/assets/img/actions/groot-action-figure.jpg",
+    image:"./assets/img/actions/groot-action-figure.jpg",
     name: "Groot",
     price: "R$ 950,00",
     type: "Action Figures",
   },
   {
-    image:"/assets/img/actions/ironman-action-figure.jpg",
+    image:"./assets/img/actions/ironman-action-figure.jpg",
     name: "Homem de Ferro",
     price: "R$ 1030,00",
     type: "Action Figures",
   },
   {
-    image:"/assets/img/actions/starwars-action-figure.jpg",
+    image:"./assets/img/actions/starwars-action-figure.jpg",
     name: "Sr Yoda",
     price: "R$ 870,00",
     type: "Action Figures",
   },
   {
-    image:"/assets/img/actions/wolverine-action-figure.jpg",
+    image:"./assets/img/actions/wolverine-action-figure.jpg",
     name: "Wolverine",
     price: "R$ 510,00",
     type: "Action Figures",
   },
-  
 ];
 let actionFiguresArray = []
 let paintingsArray = []
@@ -84,9 +83,7 @@ function separateItens(productsArray){
 separateItens(productsArray)
 let pinturas = document.querySelector('.pinturas')
 let figures = document.querySelector('.actions')
-
 function products(listArray,ul){
-  console.log(listArray)
     for(let i = 0; i < listArray.length; i++){
     let products = listArray[i]
     let li = document.createElement('li');
@@ -105,8 +102,3 @@ function products(listArray,ul){
 }
 products(actionFiguresArray,figures)
 products(paintingsArray,pinturas)
-
-
-
-
-
